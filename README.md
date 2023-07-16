@@ -1,66 +1,49 @@
-### Doubly linked list
+## Двусвязный список
 
----
-⚠️ DO NOT SUBMIT PRS TO THIS REPO ⚠️
+Учебная задача по JS
+
+*(В рамках курса Frontend-Developer в RollingScopesSchool)*
 
 ## Task
+Ваша задача — реализовать структуру данных [двухсвязный список](https://en.wikipedia.org/wiki/Double_linked_list).
 
-Your task is to implement [doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list) data structure.
-
-### Methods
+### Методы
 ##### `append(data)`
-Should add node to the end of the list
+Должен добавить узел в конец списка
 
 ##### `head()`
-Should return data from the head of the list
+Должен возвращать данные из головы списка
 
 ##### `tail()`
-Should return data from the end of the list
+Должен возвращать данные с конца списка
 
 ##### `at(index)`
-Should return data of node by specified index
+Должен возвращать данные узла по указанному индексу
 
-##### `insertAt(index)`
-Should insert data to specified index
+##### `insertAt(index)
+Для вставки данных в указанный индекс
 
 ##### `isEmpty()`
-Should return true if list is empty, false otherwise
+Должен возвращать true, если список пуст, иначе false
 
 ##### `clear()`
-Should clear the list
+Очищает список
 
 ##### `deleteAt(index)`
-Should delete element by specified index
+Удаляет элемент по индексу
 
 ##### `reverse()`
-Should reverse the list
+Переворачивает список
 
 ##### `indexOf(value)`
-Should return index of specified value or -1 if list doesn't contain such
+Должен возвращать индекс указанного значения или -1, если список не содержит такого
 
-### Prerequisites
-1. Install [Node.js](https://nodejs.org/en/download/)   
-2. Fork this repository: https://github.com/rolling-scopes-school/doubly-linked-list/
-3. Clone your newly created repo: https://github.com/<%your_github_username%>/doubly-linked-list/  
-4. Go to folder `doubly-linked-list`  
-5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
-6. Run `npm test` in command line or you can run tests in browser with `npm start` and open http://localhost:8080
-7. You will see the number of passing and failing tests. 100% of passing tests is equal to 100p in score  
+## Как тестировать
 
----
+- Запустить `npm install` в терминале
+- Запустить `npm test` в терминале
+- Вы сможете увидеть количество пройденных и провалившихся тестов
 
-### Submit to [rs app](https://app.rs.school)
-1. Open [rs app](https://app.rs.school) and login
-2. Go to [submit task page](https://app.rs.school/course/submit-task?course=rs-2019-q3)
-3. Select your task (doubly-linked-list)
-4. Press the submit button and enjoy
-
----
-
-### Notes
-1. We recommend you to use nodejs of version 10 or lower. If you using any of features that does not supported by node v10, score won't be submitted.
-2. Please be sure that each of your test in limit of 30sec.
-
----
-
-© [Shastel](https://github.com/Shastel)
+### Заметки
+1. Рекомендуется использовать nodejs версии 10 или ниже.
+2. Рекомендуется реализовать функцию так, чтоб каждый из тестов не превышал 30 секунд.
